@@ -82,3 +82,30 @@ p {
     line-height: 34px;
     font-weight: bold;
 }
+
+@media (max-width:729px) {
+    header {
+        display: none;
+    }
+
+     p {
+        display:none;
+    }
+    
+    h1, h2 {
+        align-items: center;
+        justify-content: center;
+    }
+
+        h2 {
+            margin-bottom: 17px;
+        }
+
+        img {
+            margin-right: 22px;
+        }
+    .button-main {
+        align-items: center;
+        justify-content: center;
+    }
+}
